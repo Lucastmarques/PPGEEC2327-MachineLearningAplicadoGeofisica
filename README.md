@@ -33,8 +33,12 @@ A estrutura geral segue o formato:
 │   ├── README.md
 │   ├── conda.yaml
 │   └── exercise01.ipynb
+├── exercise02/
+│   ├── README.md
+│   ├── conda.yaml
+│   ├── exercise02.ipynb
+│   └── neural_network.py
 └── exerciseXX/
-    ├── README.md
     └── ...
 ```
 
@@ -45,6 +49,7 @@ As instruções presentes no README de cada atividade têm precedência para sua
 | Diretório | Conteúdo |
 |---|---|
 | [`exercise01`](./exercise01/) | Comparação dos otimizadores Momentum, Nesterov Accelerated Gradient (NAG) e Adam na minimização da função de Rosenbrock. |
+| [`exercise02`](./exercise02/) | Classificação binária e multiclasse com redes neurais implementadas em NumPy, incluindo validação numérica da retropropagação e reprodução dos experimentos do Capítulo 4 de *Machine Learning Methods in Geoscience*. |
 
 Esta tabela será atualizada conforme novas atividades forem adicionadas ao repositório.
 
