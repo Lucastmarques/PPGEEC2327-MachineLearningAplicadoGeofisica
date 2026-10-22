@@ -3,6 +3,7 @@
 
 # Remove pdfs
 *.pdf
+!Presentation01/*.pdf
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
