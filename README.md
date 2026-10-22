@@ -16,11 +16,12 @@ A disciplina é ministrada pelo Prof. Dr. [**Tiago Tavares Leite Barros**](http:
 
 ## Organização do repositório
 
-Cada exercício ou atividade possui um diretório próprio e autocontido. Isso significa que cada pasta deve reunir tudo o que é necessário para compreender, configurar e executar a respectiva solução, incluindo:
+Cada exercício ou atividade possui um diretório próprio e autocontido. Cada pasta reúne os materiais necessários para compreender a solução e, quando aplicável, configurar o ambiente e executar os experimentos, incluindo:
 
 - um `README.md` com a descrição da atividade e dos arquivos;
-- instruções para instalação das dependências;
-- orientações para execução dos scripts e/ou notebooks Jupyter;
+- artigo e slides em PDF, no caso de apresentações;
+- instruções para instalação das dependências, quando necessárias;
+- orientações para execução dos scripts e/ou notebooks Jupyter, quando houver;
 - arquivos de configuração do ambiente, quando necessários;
 - códigos-fonte, notebooks, dados e demais recursos específicos da atividade.
 
@@ -43,11 +44,13 @@ A estrutura geral segue o formato:
 │   ├── annotations.csv
 │   ├── conda.yaml
 │   └── exercise03.ipynb
-└── exerciseXX/
-    └── ...
+└── Presentation01/
+    ├── README.md
+    ├── swell_noise_ufrj.pdf
+    └── Apresentação de artigo em ML aplicado à geofísica (Lucas e Rosélia).pdf
 ```
 
-As instruções presentes no README de cada atividade têm precedência para sua instalação e execução, pois diferentes exercícios podem utilizar dependências ou ambientes distintos.
+O README de cada atividade descreve seus materiais e orientações de consulta. Para os exercícios com código, essas instruções têm precedência para instalação e execução, pois podem utilizar dependências ou ambientes distintos.
 
 ## Atividades disponíveis
 
@@ -56,6 +59,7 @@ As instruções presentes no README de cada atividade têm precedência para sua
 | [`exercise01`](./exercise01/) | Comparação dos otimizadores Momentum, Nesterov Accelerated Gradient (NAG) e Adam na minimização da função de Rosenbrock. |
 | [`exercise02`](./exercise02/) | Classificação binária e multiclasse com redes neurais implementadas em NumPy, incluindo validação numérica da retropropagação e reprodução dos experimentos do Capítulo 4 de *Machine Learning Methods in Geoscience*. |
 | [`exercise03`](./exercise03/) | Comparação de FCNN e SVM-RBF na identificação de refletores e filtragem de artefatos de migração em uma imagem sísmica, reproduzindo o laboratório dos capítulos 5 e 7 de *Machine Learning Methods in Geoscience*. |
+| [`Presentation01`](./Presentation01/) | Apresentação em dupla de artigo sobre aprendizado profundo para atenuação de ruído de swell em dados sísmicos marinhos, com o artigo e os slides em PDF. |
 
 Esta tabela será atualizada conforme novas atividades forem adicionadas ao repositório.
 
@@ -64,3 +68,13 @@ Esta tabela será atualizada conforme novas atividades forem adicionadas ao repo
 [![Avatar de Lucas Torres Marques no GitHub](https://github.com/Lucastmarques.png?size=160)](https://github.com/Lucastmarques)
 
 [**Lucas Torres Marques**](https://github.com/Lucastmarques)
+
+## Colaboradores
+
+As atividades em dupla contam com a participação de colaboradores, identificados abaixo com suas respectivas contribuições.
+
+[![Avatar de Rosélia Nascimento no GitHub](https://github.com/roseliasilva.png?size=160)](https://github.com/roseliasilva)
+
+[**Rosélia Nascimento**](https://github.com/roseliasilva)
+
+Participou da preparação da [Apresentação 01 — Artigo em ML aplicado à geofísica](./Presentation01/README.md), sobre o uso de aprendizado profundo para atenuar ruído de *swell* em dados sísmicos marinhos.
