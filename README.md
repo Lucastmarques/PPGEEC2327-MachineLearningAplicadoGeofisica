@@ -44,6 +44,15 @@ A estrutura geral segue o formato:
 │   ├── annotations.csv
 │   ├── conda.yaml
 │   └── exercise03.ipynb
+├── exercise04/
+│   ├── README.md
+│   ├── conda.yaml
+│   ├── exercise04.ipynb
+│   ├── crack_cnn.py
+│   ├── annotation_picker.py
+│   ├── annotations_big.csv
+│   ├── annotations_small.csv
+│   └── LICENSE-CNN_lab
 └── Presentation01/
     ├── README.md
     ├── swell_noise_ufrj.pdf
@@ -59,6 +68,7 @@ O README de cada atividade descreve seus materiais e orientações de consulta. 
 | [`exercise01`](./exercise01/) | Comparação dos otimizadores Momentum, Nesterov Accelerated Gradient (NAG) e Adam na minimização da função de Rosenbrock. |
 | [`exercise02`](./exercise02/) | Classificação binária e multiclasse com redes neurais implementadas em NumPy, incluindo validação numérica da retropropagação e reprodução dos experimentos do Capítulo 4 de *Machine Learning Methods in Geoscience*. |
 | [`exercise03`](./exercise03/) | Comparação de FCNN e SVM-RBF na identificação de refletores e filtragem de artefatos de migração em uma imagem sísmica, reproduzindo o laboratório dos capítulos 5 e 7 de *Machine Learning Methods in Geoscience*. |
+| [`exercise04`](./exercise04/) | Conversão do laboratório MATLAB CNN_lab para Python/PyTorch, com classificação binária e multiclasse em uma única execução, reutilização do picking manual, variação da arquitetura e comparação de 10 e 100 épocas. |
 | [`Presentation01`](./Presentation01/) | Apresentação em dupla de artigo sobre aprendizado profundo para atenuação de ruído de swell em dados sísmicos marinhos, com o artigo e os slides em PDF. |
 
 Esta tabela será atualizada conforme novas atividades forem adicionadas ao repositório.

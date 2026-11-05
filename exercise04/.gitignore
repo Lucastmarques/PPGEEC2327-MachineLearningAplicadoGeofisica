@@ -1,0 +1,4 @@
+results/
+*.executed.ipynb
+# Fontes MATLAB opcionais, mantidos localmente como referência.
+CNN_lab/

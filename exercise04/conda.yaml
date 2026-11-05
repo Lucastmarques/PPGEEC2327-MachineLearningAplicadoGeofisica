@@ -1,0 +1,29 @@
+name: exercise04
+
+channels:
+  - conda-forge
+
+variables:
+  # Evita falha do profiler ao consultar a topologia KFD indisponível no WSL.
+  ROCPROFILER_REGISTER_ENABLED: "0"
+
+dependencies:
+  - python=3.12
+  - pip
+  - numpy>=2.0
+  - scipy>=1.13
+  - matplotlib>=3.8
+  - pandas>=2.2
+  - pillow>=10
+  - plotly>=6.0
+  - anywidget>=0.9
+  - ipywidgets>=8.1
+  - notebook>=7.2
+  - jupyterlab>=4.2
+  - ipykernel>=6.29
+  - nbconvert>=7.16
+  - pip:
+      # GPU AMD em Linux/WSL com ROCm 7.2, como no exercise01.
+      # O sufixo impede que uma distribuição CPU satisfaça esta dependência.
+      - --index-url https://download.pytorch.org/whl/rocm7.2
+      - torch==2.13.0+rocm7.2
