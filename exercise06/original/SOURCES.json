@@ -1,0 +1,207 @@
+{
+  "retrieved_on": "2026-11-18",
+  "date_timezone": "America/Fortaleza",
+  "laboratory_url": "http://utam.gg.utah.edu/Classes/ML/LAB1/Chapter.Book.Sparse/Chapter.Sparse2/lab.html",
+  "html_snapshot": "HTML only; image and stylesheet assets were not mirrored.",
+  "downloads": [
+    {
+      "path": "lab.html",
+      "bytes": 6995,
+      "sha256": "0c201582a377f88a7920d029493aa410d5f8fd6c469ddf9a20a668227469640b",
+      "url": "http://utam.gg.utah.edu/Classes/ML/LAB1/Chapter.Book.Sparse/Chapter.Sparse2/lab.html"
+    },
+    {
+      "path": "CSCdenoising.pdf",
+      "bytes": 3037060,
+      "sha256": "952b99e5c68b0d28197fb716d57a979fb6ccccf6fa42f27fcf1dc2efc53f5334",
+      "url": "http://utam.gg.utah.edu/Classes/ML/LAB1/Chapter.Book.Sparse/Chapter.Sparse2/CSCdenoising.pdf"
+    },
+    {
+      "path": "csc.pptx",
+      "bytes": 5177570,
+      "sha256": "cc223f9cd1fbf12c5f924e987ac1760ee6f3053f43013a2f0986d587b47c9840",
+      "url": "http://utam.gg.utah.edu/Classes/ML/LAB1/Chapter.Book.Sparse/Chapter.Sparse2/csc.pptx"
+    },
+    {
+      "path": "csc_code.zip",
+      "bytes": 934349,
+      "sha256": "fe5bd09472bd0f2d334450be19fe1f8ce56864b536e3a5d26eaa8fe1fd3fd44f",
+      "url": "http://utam.gg.utah.edu/Classes/ML/LAB1/Chapter.Book.Sparse/Chapter.Sparse2/csc_code.zip"
+    }
+  ],
+  "archive": {
+    "path": "csc_code.zip",
+    "crc_check": "passed",
+    "extracted_files": 9,
+    "uncompressed_file_bytes": 961025,
+    "entries": [
+      {
+        "path": "csc_code/snr_test.m",
+        "bytes": 179,
+        "sha256": "d6de7b6066b39b6073f21e7e8770cc91d1b177f5f70a2772a1b821bad64aa600",
+        "archive_member": "csc_code/snr_test.m",
+        "matches_archive": true
+      },
+      {
+        "path": "csc_code/spy_lz.m",
+        "bytes": 4187,
+        "sha256": "0c64bd6f5109c5058675f374049be2e63c1170a2e7dc19bdd87da5e9aefcb0b4",
+        "archive_member": "csc_code/spy_lz.m",
+        "matches_archive": true
+      },
+      {
+        "path": "csc_code/b.mat",
+        "bytes": 419596,
+        "sha256": "7f02a707ebe2a4380329f8ad265cf37309a571075d594b4c517ed4a99360f113",
+        "archive_member": "csc_code/b.mat",
+        "matches_archive": true
+      },
+      {
+        "path": "csc_code/admm_learn_conv2D_weighted_test.m",
+        "bytes": 18744,
+        "sha256": "f85c7e30ed6e5f1c6573bfb9f02a2c094481652b2aa3ef782532e55f06042b07",
+        "archive_member": "csc_code/admm_learn_conv2D_weighted_test.m",
+        "matches_archive": true
+      },
+      {
+        "path": "csc_code/admm_solve_conv2D_weighted_sparse_reconstruction.m",
+        "bytes": 7666,
+        "sha256": "53828ae856b71d7d1e07b93464c05da6878ecca4fcdb1ce182924c33f8d90cc8",
+        "archive_member": "csc_code/admm_solve_conv2D_weighted_sparse_reconstruction.m",
+        "matches_archive": true
+      },
+      {
+        "path": "csc_code/denoise.m",
+        "bytes": 4315,
+        "sha256": "47411a4b920b7b443ed01fff986f42a020c813a180c14333f9a7a9fa527e70b4",
+        "archive_member": "csc_code/denoise.m",
+        "matches_archive": true
+      },
+      {
+        "path": "csc_code/training_phase.m",
+        "bytes": 4343,
+        "sha256": "7af97bb5afe735ae4726be93b32e57c541ac9e7487d59960fdb424a4878d594e",
+        "archive_member": "csc_code/training_phase.m",
+        "matches_archive": true
+      },
+      {
+        "path": "csc_code/local_contrast_normalization.m",
+        "bytes": 1735,
+        "sha256": "8dc1d47d8e2491d057697c6c6bfb10eb363878d8aa578705c7c28fac8c9e5a49",
+        "archive_member": "csc_code/local_contrast_normalization.m",
+        "matches_archive": true
+      },
+      {
+        "path": "csc_code/filters.mat",
+        "bytes": 500260,
+        "sha256": "1e92f40bc1ee4fcf90a7ebedf078cad2d1a1f7c4bc9e6ef81f06a4b02a695344",
+        "archive_member": "csc_code/filters.mat",
+        "matches_archive": true
+      }
+    ]
+  },
+  "mat_variables": {
+    "b.mat": [
+      {
+        "name": "b",
+        "shape": [
+          181,
+          100,
+          5
+        ],
+        "matlab_class": "double"
+      }
+    ],
+    "filters.mat": [
+      {
+        "name": "Dz",
+        "shape": [
+          120,
+          110
+        ],
+        "matlab_class": "double"
+      },
+      {
+        "name": "d",
+        "shape": [
+          21,
+          11,
+          3
+        ],
+        "matlab_class": "double"
+      },
+      {
+        "name": "filter_size",
+        "shape": [
+          1,
+          3
+        ],
+        "matlab_class": "double"
+      },
+      {
+        "name": "iterations",
+        "shape": [
+          1,
+          1
+        ],
+        "matlab_class": "struct"
+      },
+      {
+        "name": "obj",
+        "shape": [
+          1,
+          1
+        ],
+        "matlab_class": "double"
+      },
+      {
+        "name": "z",
+        "shape": [
+          120,
+          110,
+          3
+        ],
+        "matlab_class": "double"
+      }
+    ]
+  },
+  "supplied_filters_inspection": {
+    "provenance": "Values read from the supplied MATLAB file; no Python training or denoising performed.",
+    "filter_size": [
+      21,
+      11,
+      3
+    ],
+    "filter_l2_norms": [
+      1.0104162640226442,
+      1.0104132354817164,
+      1.0204588573011093
+    ],
+    "stored_objective": 576.1575174414269,
+    "iteration_fields": {
+      "obj_vals_d": [
+        1,
+        16
+      ],
+      "obj_vals_z": [
+        1,
+        16
+      ],
+      "tim_vals": [
+        1,
+        16
+      ],
+      "it_vals": [
+        21,
+        11,
+        3,
+        16
+      ]
+    }
+  },
+  "inspection_environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  }
+}

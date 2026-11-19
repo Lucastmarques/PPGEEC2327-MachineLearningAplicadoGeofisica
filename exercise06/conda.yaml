@@ -1,0 +1,15 @@
+name: exercise06
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - numpy>=2.0
+  - scipy>=1.13
+  - matplotlib>=3.8
+  - pandas>=2.2
+  - jupyterlab>=4.2
+  - notebook>=7.2
+  - ipykernel>=6.29
+  - nbconvert>=7.16

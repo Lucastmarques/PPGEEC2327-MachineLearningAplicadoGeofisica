@@ -1,0 +1,10 @@
+# Materiais originais: incluir o ZIP que fornece os MAT usados pelo notebook.
+/original/*
+!/original/csc_code.zip
+!/original/CSCdenoising.pdf
+!/original/SOURCES.json
+
+# Notebook, src/, conda.yaml e cnn_reference.npz são versionados normalmente.
+# Saídas e caches regeneráveis permanecem locais.
+/original/results/
+/original/.cache/

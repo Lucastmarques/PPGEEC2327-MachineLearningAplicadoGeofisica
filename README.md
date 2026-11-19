@@ -53,6 +53,12 @@ A estrutura geral segue o formato:
 │   ├── annotations_big.csv
 │   ├── annotations_small.csv
 │   └── LICENSE-CNN_lab
+├── exercise06/
+│   ├── README.md
+│   ├── exercise06.ipynb
+│   ├── conda.yaml
+│   ├── src/
+│   └── original/
 └── Presentation01/
     ├── README.md
     ├── swell_noise_ufrj.pdf
@@ -69,6 +75,7 @@ O README de cada atividade descreve seus materiais e orientações de consulta. 
 | [`exercise02`](./exercise02/) | Classificação binária e multiclasse com redes neurais implementadas em NumPy, incluindo validação numérica da retropropagação e reprodução dos experimentos do Capítulo 4 de *Machine Learning Methods in Geoscience*. |
 | [`exercise03`](./exercise03/) | Comparação de FCNN e SVM-RBF na identificação de refletores e filtragem de artefatos de migração em uma imagem sísmica, reproduzindo o laboratório dos capítulos 5 e 7 de *Machine Learning Methods in Geoscience*. |
 | [`exercise04`](./exercise04/) | Conversão do laboratório MATLAB CNN_lab para Python/PyTorch, com classificação binária e multiclasse em uma única execução, reutilização do picking manual, variação da arquitetura e comparação de 10 e 100 épocas. |
+| [`exercise06`](./exercise06/) | Conversão do laboratório CSC para NumPy/SciPy, com notebook executado, ADMM para treinamento e reconstrução, variações de tamanho/K/L1 e comparação visual com filtros CNN. |
 | [`Presentation01`](./Presentation01/) | Apresentação em dupla de artigo sobre aprendizado profundo para atenuação de ruído de swell em dados sísmicos marinhos, com o artigo e os slides em PDF. |
 
 Esta tabela será atualizada conforme novas atividades forem adicionadas ao repositório.
